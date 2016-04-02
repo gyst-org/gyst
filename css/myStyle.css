@@ -1,8 +1,62 @@
+head{
+	display: flex;
+	justify-content:;
+}
 body {
     background-color: #9B3F5F;
 }
+#everything{
+	display: flex;
+	height: 100vh;
+}
 
 h1 {
-    color: navy;
+    
     text-align: center;
+    align-items: flex-end;
 }
+
+h2{
+	color: white;
+}
+p{
+	color:white;
+}
+
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 25px;
+	height: 100%;
+}
+
+.logo{
+	margin: 25px;
+}
+
+.blurb{
+	margin: 25px;
+}
+
+.tabs{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-around;
+	
+}
+
+.tabs-button{
+	width="203";
+}
+
+.tabs-span{
+	margin: 25px;
+}
+
+ul {
+	display:flex;
+    list-style-type: none;
+}
+

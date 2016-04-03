@@ -154,8 +154,10 @@ nav{
 	background-color: $main-col;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	padding: 2% 10% 3% 10%;
 	color: white;
+	height: 100%;
 	
 	.cap {
 		width: 50%;

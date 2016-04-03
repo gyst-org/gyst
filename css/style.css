@@ -105,7 +105,8 @@ nav li:first-child {
   display: flex;
   justify-content: space-around;
   padding: 2% 10% 3% 10%;
-  color: white; }
+  color: white;
+  height: 100%; }
   .info .cap {
     width: 50%; }
 
